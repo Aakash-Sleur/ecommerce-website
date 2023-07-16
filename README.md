@@ -1,34 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ecommerce website using Next.js TailwindCSS and Stripe
 
-## Getting Started
+### Description
 
-First, run the development server:
+The above project is a fully functional ecommerce webite with various features integrated in it using next.js, TailwindCss and Stripe.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+### Key Features
+ - Add to cart functionality
+ - Fully Responsive design using TailwindCss
+ - Product Categories 
+ - Product preview
+ - Product filters based on size and color
+ - Payment integration using Stripe
+ - Server error handeling using react-hot-toast
+
+## Application Overview
+
+### Home page
+![Screenshot 2023-07-16 121718](https://github.com/Aakash-Sleur/ecommerce-website/assets/112175038/c7a6f349-2323-455b-be28-375ae02e071b)
+
+### Categories with filters
+![Screenshot 2023-07-16 121748](https://github.com/Aakash-Sleur/ecommerce-website/assets/112175038/32a46bcf-e04d-4663-809d-1b408203ece6)
+
+### Product Preview
+![Screenshot 2023-07-16 121803](https://github.com/Aakash-Sleur/ecommerce-website/assets/112175038/98ef438c-4663-4e76-a269-564a38531424)
+
+### Cart Page
+![Screenshot 2023-07-16 122222](https://github.com/Aakash-Sleur/ecommerce-website/assets/112175038/58ec235d-8f1b-4426-bc96-47ecde41a4d1)
+
+## Live Application
+
+https://ecommerce-website-gray.vercel.app
+
+## Prerequisites
+
+NODE version 14.x
+
+### Clone Respository
+
+```shell
+https://github.com/Aakash-Sleur/ecommerce-website.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Install
+```shell
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Set Encironment up
+```js
+NEXT_PUBLIC_API_URL=
+```
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Start the app
+```shell
+npm run dev
+```

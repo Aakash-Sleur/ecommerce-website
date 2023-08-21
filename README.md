@@ -47,7 +47,7 @@ npm install
 ```
 
 
-### Set Encironment up
+### Set Environment up
 ```js
 NEXT_PUBLIC_API_URL=
 ```
